@@ -1,0 +1,130 @@
+{
+	"id": "60d53041-d80a-42db-9d86-e88ed7613047",
+	"name": "Star Wars API",
+	"timestamp": "2025-02-04T00:56:25.640Z",
+	"collection_id": "27458662-2527f184-664e-4f16-97c5-63a12778c3fe",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": "1000",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-02-04T00:55:51.302Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "27ebeaeb-f764-4c1d-982e-e4b7cd5dfc13",
+			"name": "Listar personagem",
+			"url": "https://swapi.dev/api/people/1/",
+			"time": 390,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				908,
+				235,
+				283,
+				237,
+				235,
+				250,
+				241,
+				390
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "008b6dff-9e84-4c5f-80a2-c1eb686f2c52",
+			"name": "Listar personagem 2",
+			"url": "https://swapi.dev/api/people/2",
+			"time": 240,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				294,
+				299,
+				246,
+				278,
+				512,
+				239,
+				244,
+				240
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "f206eaa1-ae28-4ee7-9fd9-88f5714203ad",
+			"name": "{{prd}}people/2",
+			"url": "https://swapi.dev/api/people/2",
+			"time": 233,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				233,
+				249,
+				299,
+				343,
+				241,
+				330,
+				369,
+				233
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 8,
+	"totalTime": 7428,
+	"collection": {
+		"requests": [
+			{
+				"id": "27ebeaeb-f764-4c1d-982e-e4b7cd5dfc13",
+				"method": "GET"
+			},
+			{
+				"id": "008b6dff-9e84-4c5f-80a2-c1eb686f2c52",
+				"method": "GET"
+			},
+			{
+				"id": "f206eaa1-ae28-4ee7-9fd9-88f5714203ad",
+				"method": "GET"
+			}
+		]
+	}
+}
